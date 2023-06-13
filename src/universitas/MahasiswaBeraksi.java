@@ -1,14 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package universitas;
+import universitas.Mahasiswa;
 
-/**
- *
- * @author Najmi
- */
 public class MahasiswaBeraksi {
+    public static void main(String[] args) {
+        Mahasiswa data = new Mahasiswa();
+        data.setNama("MUHAMMAD NAJMI ANWAR");
+        data.setNim(2110010433);
+        data.setProdi("TI");
+        data.viewdata();
+        
+    }
     
 }
